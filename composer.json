@@ -1,0 +1,19 @@
+{
+    "name": "ninnypants/cwp-theme",
+    "description": "Composer example theme.",
+    "type": "wordpress-theme",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Tyrel Kelsey",
+            "email": "tyrel@ninnypants.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CWP\\": "includes/CWP"
+        }
+    }
+}
